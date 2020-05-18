@@ -37,7 +37,7 @@ def get_recommendations(title):
 def main():
     if flask.request.method == 'GET':
         return(flask.render_template('index.html'))
-            
+   '''         
     if flask.request.method == 'POST':
         m_name = flask.request.form['movie_name']
         m_name = m_name.title()
@@ -53,6 +53,6 @@ def main():
                 dates.append(result_final.iloc[i][1])
 
             return flask.render_template('positive.html',movie_names=names,movie_date=dates,search_name=m_name)
-
+'''
 if __name__ == '__main__':
     app.run()
