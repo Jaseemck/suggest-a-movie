@@ -3,7 +3,7 @@ import difflib
 import pandas as pd
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-
+'''
 app = flask.Flask(__name__, template_folder='templates')
 
 df2 = pd.read_csv('./model/tmdb.csv')
@@ -30,7 +30,7 @@ def get_recommendations(title):
     return_df['Title'] = tit
     return_df['Year'] = dat
     return return_df
-
+'''
 # Set up the main route
 @app.route('/', methods=['GET', 'POST'])
 
