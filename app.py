@@ -3,7 +3,7 @@ import difflib
 import pandas as pd
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-'''
+
 app = flask.Flask(__name__, template_folder='templates')
 
 df2 = pd.read_csv('./model/tmdb.csv')
@@ -30,14 +30,14 @@ def get_recommendations(title):
     return_df['Title'] = tit
     return_df['Year'] = dat
     return return_df
-'''
+
 # Set up the main route
 @app.route('/', methods=['GET', 'POST'])
 
 def main():
     if flask.request.method == 'GET':
         return(flask.render_template('index.html'))
-   '''         
+         
     if flask.request.method == 'POST':
         m_name = flask.request.form['movie_name']
         m_name = m_name.title()
@@ -53,6 +53,6 @@ def main():
                 dates.append(result_final.iloc[i][1])
 
             return flask.render_template('positive.html',movie_names=names,movie_date=dates,search_name=m_name)
-'''
+
 if __name__ == '__main__':
     app.run()
