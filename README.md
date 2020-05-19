@@ -1,7 +1,13 @@
 # Suggest-a-Movie
+Movie Recommendation System
 
-Complete Documentation - [CLICK HERE](https://medium.com/@pklappy21/movie-recommendation-system-python-flask-web-application-heroku-deployment-7e39492b640c?source=friends_link&sk=6efee6fd96fe37c033235015dc9b0950)
+A recommender system or a recommendation system is a subclass of information filtering system that seeks to predict the "rating" or "preference" a user would give to an item. In other words, we can say, "a recommendation system suggest anything relevant based on the used interest"
 
+Complete Documentation - [CLICK HERE](hhttps://medium.com/@jaseemckclt/the-incomplete-projects-792b12eabaaa)
 
+Deployed Web Application - [CLICK HERE](https://suggest-movie-for-me.herokuapp.com/)(Valid for 1 year from 20.05.20)
 
-Deployed Web Application - [CLICK HERE](https://recmovie.herokuapp.com/)(Valid for 1 year from 20.05.20)
+<Feel free to contact me and contribute to the project>
+
+Jaseem ck
+#The_incomplete_projects
