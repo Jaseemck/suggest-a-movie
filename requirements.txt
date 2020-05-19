@@ -21,4 +21,4 @@ sklearn==0.0
 threadpoolctl==2.0.0
 urllib3==1.25.9
 Werkzeug==1.0.1
-gunicorn==19.0.0
+gunicorn==19.5.0
