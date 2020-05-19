@@ -46,7 +46,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV='/home/jesi/Desktop/recommendation-system-master/movie'
+VIRTUAL_ENV='/home/jesi/Desktop/The_incomplete_projects/Suggest a Movie/recommendation-system-master/movie'
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

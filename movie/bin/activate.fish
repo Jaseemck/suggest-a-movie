@@ -57,7 +57,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV '/home/jesi/Desktop/recommendation-system-master/movie'
+set -gx VIRTUAL_ENV '/home/jesi/Desktop/The_incomplete_projects/Suggest a Movie/recommendation-system-master/movie'
 
 # https://github.com/fish-shell/fish-shell/issues/436 altered PATH handling
 if test (echo $FISH_VERSION | head -c 1) -lt 3

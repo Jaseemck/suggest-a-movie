@@ -10,7 +10,7 @@ alias deactivate 'test $?_OLD_VIRTUAL_PATH != 0 && setenv PATH "$_OLD_VIRTUAL_PA
 # Unset irrelevant variables.
 deactivate nondestructive
 
-setenv VIRTUAL_ENV '/home/jesi/Desktop/recommendation-system-master/movie'
+setenv VIRTUAL_ENV '/home/jesi/Desktop/The_incomplete_projects/Suggest a Movie/recommendation-system-master/movie'
 
 set _OLD_VIRTUAL_PATH="$PATH:q"
 setenv PATH "$VIRTUAL_ENV:q/bin:$PATH:q"
