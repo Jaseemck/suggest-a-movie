@@ -12,7 +12,7 @@ A recommender system or a recommendation system is a subclass of information fil
 * Flask application
 * Heroku
 
-Complete Documentation - [CLICK HERE](hhttps://medium.com/@jaseemckclt/the-incomplete-projects-792b12eabaaa)
+Complete Documentation - [CLICK HERE](https://medium.com/@jaseemckclt/the-incomplete-projects-792b12eabaaa)
 
 Deployed Web Application - [CLICK HERE](https://suggest-movie-for-me.herokuapp.com/)(Valid for 1 year from 20.05.20)
 
