@@ -11,7 +11,7 @@ df2 = pd.read_csv('./model/tmdb.csv')
 count = CountVectorizer(stop_words='english')
 count_matrix = count.fit_transform(df2['soup'])
 
-cosine_sim2 = cosine_similarity(count_matrix, count_matrix)
+
 
 df2 = df2.reset_index()
 indices = pd.Series(df2.index, index=df2['title'])
@@ -41,6 +41,7 @@ def get_recommendations(title):
     return_df['Plot']=plo
     return_df['Ratings']=rat
     return_df['Genre']=gen
+    return_df.sort_values(by=['Ratings'], inplace=True, ascending=False)
     return return_df
 
 # Set up the main route
@@ -49,7 +50,7 @@ def get_recommendations(title):
 def main():
     if flask.request.method == 'GET':
         return(flask.render_template('index.html'))
-         
+
     if flask.request.method == 'POST':
         m_name = flask.request.form['movie_name']
         m_name = m_name.title()
