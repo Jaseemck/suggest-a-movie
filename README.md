@@ -3,6 +3,8 @@ Movie Recommendation System
 
 This a content based movie recommendation system build using flask, a python micro framework and deployed in Heroku app. 
 
+![](https://github.com/Jaseemck/suggest-a-movie/blob/master/movie_recommend.jpeg)
+
 A recommender system or a recommendation system is a subclass of information filtering system that seeks to predict the "rating" or "preference" a user would give to an item. In other words, we can say, "a recommendation system suggest anything relevant based on the used interest"
 
 * Content based Recommendation
